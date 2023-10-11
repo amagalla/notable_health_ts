@@ -1,0 +1,11 @@
+definition:
+  swagger: "2.0"
+  info:
+    title: 'Sample API'
+    version: 1.0.0
+    description: 'Sample express API docs'
+  servers:
+    - url:
+        'http://localhost:3000'
+apis:
+  - './app/lib/routes/api/*.ts'
